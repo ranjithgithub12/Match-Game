@@ -1,0 +1,28 @@
+.list-of-tab-container {
+  list-style-type: none;
+  background-color: transparent;
+}
+
+.tab-item-button {
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #ffffff;
+  width: 85px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media(max-width: 767px){
+  .tab-item-button{
+    width: 50px;
+    font-size: 15px;
+    font-weight: 200;
+  }
+}
+.button-tab {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
